@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-color:  #E5E5FD; /*isse se background color generate hoga container class ka andar */
+    min-height: 100vh; /* min height di container ki */
+    border:10px solid black; /*border aage black color ka jo 10px ka hoga aur solid hoga aur black color ka hoga */
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_container,
+img{
+    width: 400px;;
+    height: 400px;
+}
